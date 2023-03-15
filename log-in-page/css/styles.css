@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #1c1e21;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.global-container {
+    display: flex;
+}
+
+.logo { 
+    height: 106px;
+    align-self: baseline;
+
+}
+
+.left-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 600px;
+width: 50%;
+padding-left: 200px;
+font-family: inherit;
+}
+
+.right-container {
+    width: 50%;
+    height: 600px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    padding-top: 30px;
+}
+
+.right-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.texto-inicial {
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+input {
+    height: 51.6px;
+    width: 363.6px;
+    border-radius: 6px;
+    text-align: left;
+    font-family: inherit;
+    border: solid 0.3px gray;
+    background-color: #ffffff;
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.btn-blue {
+    width: 364px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: #1977f3;
+    color: #ffffff;
+    border: solid 0.3px gray;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.btn-green {
+    width: 189.8px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: #42b72a;
+    color: #ffffff;
+    border: solid 0.3px gray;
+    align-self: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.contraseña {
+    color: #1977f3;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffffff;
+    font-weight: 200;
+}
+
+.form-log-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #ffffff;
+    font-family: inherit;
+    -webkit-box-shadow: 2px 6px 14px 2px rgba(107,103,107,1);
+    -moz-box-shadow: 2px 6px 14px 2px rgba(107,103,107,1);
+    box-shadow: 2px 6px 14px 2px rgba(107,103,107,1);
+    height: 396px;
+    width: 398px;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+p {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+hr{
+    width: 370px;
+}
+
+.crea {
+    text-decoration: none;
+}
